@@ -1,0 +1,5 @@
+p=int(input("enter the principle amount:"))
+r=int(input("enter the rate of interest"))
+t=int(input("enter the time taken at interest"))
+a=p*(1+r*t)
+print("final amount to be paid",a)
